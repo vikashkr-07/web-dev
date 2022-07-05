@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+</head>
+<body>
+    <h1>Checkbox</h1>
+    <hr>
+
+    <form action="/birds">
+
+        <input type="checkbox" name="agree-tos" id="agree">
+        <label for="agree">I agree to everything</label>
+        <p>
+            <label for="xs">XS</label>
+            <input type="radio" name="common" id="xs" value="xs">
+            <label for="s">S</label>
+            <input type="radio" name="common" id="s" value="s">
+            <label for="m">M</label>
+            <input type="radio" name="common" id="m" value="m">
+        </p>
+        <p>
+            <label for="meal">Please select an entree:</label>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="veg">Vegitable</option>
+                <option value="chicken">Chicken</option>
+            </select>
+        </p>
+        <p>
+            <label for="amount">Select the amount:</label>
+            <input type="range" name="range-ratio" min="1" max="100" step="7" id="amount">
+        </p>
+        <p>
+            <label for="request">Any special request??</label>
+            <br>
+            <textarea name="special-req" id="request" cols="30" rows="10" placeholder="Type anything here"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+
+</body>
+</html>

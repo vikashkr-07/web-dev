@@ -8,13 +8,28 @@
   </head>
   <body>
     <h1>Form Demo</h1>
-    <h1>Hello World</h1>
-    <form action="">
-      <input type="text" placeholder="username" />
-      <input type="number" placeholder="Enter a number" />
-      <input type="color" />
-      <input type="password" placeholder="password" />
-      <input type="date" />
+    <form action="/demo">
+      <p>
+        <label for="username">Enter username:</label>
+        <input type="text" placeholder="username" id="username" name="username" />
+      </p>
+      <p>
+        <label for="password">Enter password:</label>
+        <input type="password" placeholder="password" name="password" />
+      </p>
+      <p>
+        <label for="color">Enter color:</label>
+        <input type="color" id="color" name="color" />
+      </p>
+      <p>
+        <label
+          >Enter number:
+          <input type="number" placeholder="Enter a number" id="number" name="num" />
+        </label>
+      </p>
+      <button>Submit</button>
+      <button type="button">Submit</button>
+      <input type="submit" value="Click me!!">
     </form>
   </body>
 </html>
