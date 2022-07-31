@@ -1,0 +1,28 @@
+#container {
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+  }
+
+  #vertical-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(255, 10, 99);
+    text-transform: uppercase;
+  }
+  #btn {
+    padding: 0.7em;
+    border: none;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    background-color: rebeccapurple;
+  }
